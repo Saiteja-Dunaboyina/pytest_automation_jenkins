@@ -21,7 +21,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 config_path = os.path.join(current_dir,'..','config', 'config.ini')
 
 #this fixture will provide the driver for the web application
-@pytest.fixture(scope= "session")
+@pytest.fixture(scope= "function")
 def browser_setup() :
     global driver;
     service = Service(ChromeDriverManager().install());
