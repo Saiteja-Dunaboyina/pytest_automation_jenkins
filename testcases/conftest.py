@@ -24,10 +24,12 @@ config_path = os.path.join(current_dir,'..','config', 'config.ini')
 @pytest.fixture(scope= "session")
 def browser_setup() :
     global driver;
-    service = Service(ChromeDriverManager().install());
-    chrome_options = Options();
+    # service = Service(ChromeDriverManager().install());
+    # service = webdriver.Chrome();
+    chrome_options = webdriver.ChromeOptions();
     chrome_options.add_experimental_option("detach",True);
-    driver = webdriver.Chrome(service= service,options= chrome_options);
+    # driver = webdriver.Chrome(service= service,options= chrome_options);
+    driver = webdriver.Chrome(options= chrome_options);
     driver.maximize_window();
     config = read_config();
     baseUrl = config["base_url"]
