@@ -1,0 +1,16 @@
+{
+    "username" : "standard_user",
+    "lockeduser" : "locked_out_user",
+    "password" : "secret_sauce",
+    "errormsg" : "Epic sadface: Sorry, this user has been locked out.",
+    "titlelogo" : "Swag Labs",
+    "firstname" : "Harry",
+    "lastname" : "potter",
+    "pincode" : "533456",
+    "sidebarElements" : [
+        "inventory_sidebar_link",
+        "about_sidebar_link",
+        "logout_sidebar_link",
+        "reset_sidebar_link"
+    ]
+}

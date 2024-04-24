@@ -1,0 +1,15 @@
+{
+    "username" : "demouser1@gmail.com" ,
+    "password" : "DemoUser@56" ,
+    "moreoptions": [
+        "Upgrade to Pro",
+        "Settings",
+        "Help",
+        "App Update",
+        "Send Feedback"
+    ],
+    "searchdata" : "tiffin",
+    "title" : "Coffee",
+    "ingredients" : "Milk, Coffee Powder, Sugar",
+    "instructions" : "Boil milk, add coffee powder and sugar, stir well and serve hot"
+}
